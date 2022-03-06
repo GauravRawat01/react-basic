@@ -24,7 +24,6 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                Hello World
                 <ComponentA boxChecked={this.checkedA} />
                 <ComponentB boxChecked={this.checkedB} />
                 <ComponentC aChecked={this.state.aChecked} bChecked={this.state.bChecked} />
